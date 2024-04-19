@@ -4,24 +4,55 @@ export const CuartoComponente = () => {
     return (
         <div className='Encuestas'><h3>Encuestas</h3>
         <form action="/my-handling-form-page" method="post">
-  <h4>1.-¿Por que los vecinos se mudan?</h4>
+  <h4>1.-¿En general, está satisfecho con la vida en su comunidad? </h4>
   <h4>Select una opción:</h4>
   <label For="si"> Si</label>
   <input type="radio" name="gender" id="Si" value="Si"  />
   <label For="no"> No</label>
   <input type="radio" name="gender" id="No" value="No"   />
-  <h4>2.-¿Por que los vecinos  no se mudan?</h4>
+  <h4>2.-¿Se siente seguro viviendo en esta comunidad?</h4>
   <h4>Select una opción:</h4>
   <label For="si"> Si</label>
   <input type="radio" name="gender" id="Si" value="Si"  />
   <label For="no"> No</label>
   <input type="radio" name="gender" id="No" value="No"   />
-  <h4>3.-¿Por que los vecinos  no se quieren?</h4>
+  <h4>3.-¿Cree que su comunidad es un lugar limpio y bien mantenido? </h4>
   <h4>Select una opción:</h4>
   <label For="si"> Si</label>
   <input type="radio" name="gender" id="Si" value="Si"  />
   <label For="no"> No</label>
   <input type="radio" name="gender" id="No" value="No"   />
+  <h4>4.-¿Los vecinos en general son amigables y serviciales? </h4>
+  <h4>Select una opción:</h4>
+  <label For="si"> Si</label>
+  <input type="radio" name="gender" id="Si" value="Si"  />
+  <label For="no"> No</label>
+  <input type="radio" name="gender" id="No" value="No"   />
+  <h4>5.-¿Las reglas y normas de la comunidad son justas y se aplican de manera consistente? </h4>
+  <h4>Select una opción:</h4>
+  <label For="si"> Si</label>
+  <input type="radio" name="gender" id="Si" value="Si"  />
+  <label For="no"> No</label>
+  <input type="radio" name="gender" id="No" value="No"   />
+  <h4>6.-¿La comunicación con la administración de la comunidad es clara y efectiva?  </h4>
+  <h4>Select una opción:</h4>
+  <label For="si"> Si</label>
+  <input type="radio" name="gender" id="Si" value="Si"  />
+  <label For="no"> No</label>
+  <input type="radio" name="gender" id="No" value="No"   />
+  <h4>7.-¿Se siente escuchado y valorado por la administración de la comunidad?  </h4>
+  <h4>Select una opción:</h4>
+  <label For="si"> Si</label>
+  <input type="radio" name="gender" id="Si" value="Si"  />
+  <label For="no"> No</label>
+  <input type="radio" name="gender" id="No" value="No"   />
+  <h4>8.-¿Recomendaría esta comunidad a otros como un buen lugar para vivir?  </h4>
+  <h4>Select una opción:</h4>
+  <label For="si"> Si</label>
+  <input type="radio" name="gender" id="Si" value="Si"  />
+  <label For="no"> No</label>
+  <input type="radio" name="gender" id="No" value="No"   />
+<ul></ul>
 <ul>
   <li>
     <input  type="submit" value="Enviar"/> 
