@@ -1,3 +1,5 @@
+import React from 'react'
+
 export const TercerComponente = () => {
     return (
         <div className='fomulario'><h3>Pago de Cuotas</h3>

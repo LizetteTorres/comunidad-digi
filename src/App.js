@@ -3,6 +3,8 @@ import './App.css';
 import { PrimerComponente } from './Componentes/PrimerComponente';
 import { SegundoComponente } from './Componentes/SegundoComponente';
 import { TercerComponente } from './Componentes/TercerComponente';
+import { CuartoComponente } from './Componentes/CuartoComponente';
+import { QuintoComponente } from './Componentes/QuintoComponente';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <PrimerComponente></PrimerComponente>
         <SegundoComponente></SegundoComponente>
         <TercerComponente></TercerComponente>
+        <CuartoComponente></CuartoComponente>
+        <QuintoComponente></QuintoComponente>
       </header>
     </div>
   );
