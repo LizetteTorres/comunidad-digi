@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 export const SegundoComponente = () => {
     return (
         <div className='fomulario'><h3>Formulario de Registro</h3>
@@ -35,7 +34,9 @@ export const SegundoComponente = () => {
       <textarea id="msg" name="user_message"></textarea>
     </li>
     <li>
-    <input  type="submit" value="Enviar"/> 
+    <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+     <input className="botons" type="submit" value="Registrar"/>
+     <p><a href="Actividad Integradora\carrito.html">¿Ya tengo Cuenta?</a></p> 
     </li>
   </ul>
 </form>

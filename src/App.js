@@ -1,10 +1,17 @@
 import logo from './assets/img/logo.png';
 import './App.css';
-import { PrimerComponente } from './Componentes/PrimerComponente';
+
+import { PrimerComponente } from './Componentes/PimerComponente';
 import { SegundoComponente } from './Componentes/SegundoComponente';
 import { TercerComponente } from './Componentes/TercerComponente';
 import { CuartoComponente } from './Componentes/CuartoComponente';
 import { QuintoComponente } from './Componentes/QuintoComponente';
+import { ComponentePrincipal } from './Componentes/ComponentePrincipal';
+
+
+
+
+
 
 function App() {
   return (
@@ -14,11 +21,17 @@ function App() {
         <p>
          <h1>Comunidad Digital los Robles</h1>
         </p>
-        <PrimerComponente></PrimerComponente>
-        <SegundoComponente></SegundoComponente>
-        <TercerComponente></TercerComponente>
-        <CuartoComponente></CuartoComponente>
-        <QuintoComponente></QuintoComponente>
+
+        <ComponentePrincipal/> 
+        <PrimerComponente/>
+        <SegundoComponente/>
+        <TercerComponente/>
+        <CuartoComponente/>
+        <QuintoComponente/>
+     
+        
+        
+       
       </header>
     </div>
   );

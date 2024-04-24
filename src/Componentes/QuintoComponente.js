@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export const QuintoComponente = () => {
     return (
         <div className='ReporteProblemas'><h3> Reporte de Problema</h3>
@@ -16,7 +17,7 @@ export const QuintoComponente = () => {
   </ul>
 </form>
 <div>
-  <input>PrimerComponente</input>
+ 
 </div>
 
 
