@@ -7,11 +7,11 @@ export const TercerComponente = () => {
   <ul>
     <li>
       <label for="name">Nombre del residente:</label>
-      <input type="text" id="name" name="user_name" />
+      <input type="text" id="name" name="user_name"/>
     </li>
     <li>
       <label for="name">Tipo de Pago:</label>
-      <input type="text" id="name" name="user_name" />
+      <input type="text" id="name" name="user_name"/>
     </li>
     <li>
       <label for="name">Monto:</label>

@@ -10,7 +10,7 @@ export const SegundoComponente = () => {
       <input type="text" id="name" name="user_name" />
     </li>
     <li>
-      <label for="name">Numero identificación:</label>
+      <label for="name">Número identificacion:</label>
       <input type="text" id="name" name="user_name" />
     </li>
     <li>
@@ -32,6 +32,10 @@ export const SegundoComponente = () => {
     <li>
       <label for="msg">Mensaje:</label>
       <textarea id="msg" name="user_message"></textarea>
+    </li>
+    <li>
+    <p>Agregar documento:  </p>
+     <input className="botons" type="submit" value="Seleccionar archivo"/>
     </li>
     <li>
     <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>

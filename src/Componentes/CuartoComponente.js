@@ -58,6 +58,7 @@ export const CuartoComponente = () => {
     <input  type="submit" value="Enviar"/> 
     </li>
     </ul>
+    <p><a href="#">Consultar resultados de Encuestas</a></p> 
 </form>
 
     </div>

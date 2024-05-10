@@ -8,7 +8,7 @@ let cinco = '/QuintoComponente';
 export const ComponentePrincipal = () => {
   return (
     <div className='menuprincipal'><h3>Menú:</h3>
-      
+     
     <header>
      <nav>
    <ul>  
@@ -20,8 +20,9 @@ export const ComponentePrincipal = () => {
   </ul> 
   </nav> 
   </header>
-           
+
   </div>
+  
 )
 }
 
